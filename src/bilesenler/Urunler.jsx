@@ -21,8 +21,7 @@ const Urunler = (props) => {
         <span>
           <Link to='/sepet'>Sepetim ({toplamSepetSayisi})</Link>
           <br />
-          Toplam Sepet Tutarı: &#8378;
-          {toplamSepetTutari}
+          Toplam Sepet Tutarı: &#8378; {toplamSepetTutari}
         </span>
       </h2>
 
