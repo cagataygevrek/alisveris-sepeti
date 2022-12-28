@@ -32,7 +32,7 @@ const Sepet = () => {
           <img src={book.image} alt={book.name} />
           <div>
             <h4>{book.name}</h4>
-            <p>Yazar: {book.name}</p>
+            <p>Yazar: {book.author}</p>
             <p>Fiyat: &#8378;{book.price}</p>
             <p>Toplam: &#8378;{(book.price * book.sayac).toFixed(2)}</p>
             <p>Sepetinizde bu kitaptan toplam {book.sayac} adet var.</p>
