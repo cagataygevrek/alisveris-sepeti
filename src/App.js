@@ -59,10 +59,8 @@ export default function App() {
         value={{ kitaplar: kitaplar, sepeteEkle, arttir, azalt, sepettenCikar }}
       >
         <div className='App'>
-          <h1>
-            <img src='https://i.hizliresim.com/eympt2j.' alt='Kitap Listesi' />
-            Yazılım Kitapları
-          </h1>
+          <img src='https://i.hizliresim.com/eympt2j.' alt='Kitap Listesi' />
+          <h1> Yazılım Kitapları</h1>
           <Routes>
             <Route path='/' element={<Urunler />} />
             <Route path='/sepet' element={<Sepet />} />
