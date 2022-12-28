@@ -25,7 +25,7 @@ const Urunler = (props) => {
         </span>
       </h2>
 
-      {context.kitaplar.kitapListesi.map((book) => (
+      {context.kitaplar.kitapListesi?.map((book) => (
         <div className='book' key={book.id}>
           <img src={book.image} alt={book.name} />
 
