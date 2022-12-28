@@ -49,7 +49,7 @@ export default function App() {
 
   const sepettenCikar = (id) =>
     kitaplariGuncelle({
-      ...kitaplariGuncelle,
+      ...kitaplar,
       sepet: kitaplar.sepet.filter((cartItem) => cartItem.id !== id),
     });
 
